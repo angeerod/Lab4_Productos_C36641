@@ -34,8 +34,8 @@ body {
 
 /* Botón Crear/Primario */
 .btn-crear {
-    background-color: #6f42c1;
-    border-color: #6f42c1;
+    background-color: #b4a7d6;
+    border-color: #b4a7d6;
     color: white;
 }
 
@@ -47,8 +47,8 @@ body {
 
 /* Botón Detalles/Info  */
 .btn-detalles {
-    background-color: #17a2b8;
-    border-color: #17a2b8;
+    background-color: #92c5de;
+    border-color: #92c5de;
     color: white;
 }
 
@@ -60,8 +60,8 @@ body {
 
 /* Botón Editar */
 .btn-editar {
-    background-color: #fd7e14;
-    border-color: #fd7e14;
+    background-color: #ffb347;
+    border-color: #ffb347;
     color: white;
 }
 
@@ -73,8 +73,8 @@ body {
 
 /* Botón Eliminar */
 .btn-eliminar {
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color: #ff6961;
+    border-color: #ff6961;
     color: white;
 }
 
