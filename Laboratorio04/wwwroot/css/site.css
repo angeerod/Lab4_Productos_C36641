@@ -29,3 +29,72 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+
+
+/* Botón Crear/Primario */
+.btn-crear {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    color: white;
+}
+
+.btn-crear:hover {
+    background-color: #5a32a3;
+    border-color: #5a32a3;
+    color: white;
+}
+
+/* Botón Detalles/Info  */
+.btn-detalles {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: white;
+}
+
+.btn-detalles:hover {
+    background-color: #138496;
+    border-color: #138496;
+    color: white;
+}
+
+/* Botón Editar */
+.btn-editar {
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+    color: white;
+}
+
+.btn-editar:hover {
+    background-color: #e36209;
+    border-color: #e36209;
+    color: white;
+}
+
+/* Botón Eliminar */
+.btn-eliminar {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+    color: white;
+}
+
+/* Botón Secundario/Cancelar */
+.btn-cancelar {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: white;
+}
+
+.btn-cancelar:hover {
+    background-color: #545b62;
+    border-color: #545b62;
+    color: white;
+}
+
+

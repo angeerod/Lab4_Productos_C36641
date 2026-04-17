@@ -7,7 +7,7 @@
 <h1>Catálogo de Productos</h1>
 
 <p>
-    <a asp-action="Crear" class="btn btn-primary">Crear Nuevo Producto</a>
+    <a asp-action="Crear" class="btn btn-crear">Crear Nuevo Producto</a>
 </p>
 
 @if (Model != null && Model.Any())
@@ -31,9 +31,9 @@
                     <td>@producto.Precio.ToString("C")</td>
                     <td>@producto.Categoria</td>
                     <td>
-                        <a asp-action="Detalles" asp-route-id="@producto.Id" class="btn btn-info btn-sm">Detalles</a>
-                        <a asp-action="Editar" asp-route-id="@producto.Id" class="btn btn-warning btn-sm">Editar</a>
-                        <a asp-action="Eliminar" asp-route-id="@producto.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                        <a asp-action="Detalles" asp-route-id="@producto.Id" class="btn btn-detalles btn-sm">Detalles</a>
+                        <a asp-action="Editar" asp-route-id="@producto.Id" class="btn btn-editar btn-sm">Editar</a>
+                        <a asp-action="Eliminar" asp-route-id="@producto.Id" class="btn btn-eliminar btn-sm">Eliminar</a>
                     </td>
                 </tr>
             }
